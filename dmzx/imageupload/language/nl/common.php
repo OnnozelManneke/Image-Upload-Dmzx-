@@ -50,5 +50,5 @@ $lang = array_merge($lang, array(
 	'IMAGEUPLOAD_URL_LINK'						=> 'URL',
 	'IMAGEUPLOAD_IMG_LINK'						=> 'IMG',
 	'IMAGEUPLOAD_HSIMG_LINK'					=> 'HSIMG',
-	'IMAGEUPLOAD_BY'							=> 'Image Upload door',
+	'IMAGEUPLOAD_BY'							=> 'Afbeelding Upload door',
 ));

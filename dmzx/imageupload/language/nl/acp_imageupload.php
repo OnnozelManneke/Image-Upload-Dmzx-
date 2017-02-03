@@ -46,4 +46,17 @@ $lang = array_merge($lang, array(
 	'ACP_IMAGEUPLOAD_NUMBER'				=> 'Grootte van de upload',
 	'ACP_IMAGEUPLOAD_NUMBER_EXPLAIN'		=> 'Kies de grootte van de upload, standaard is 2 MB.',
 	'ACP_IMAGEUPLOAD_NEW_DOWNLOAD_SIZE'		=> 'De maximum grootte dat je php.ini toelaat is <strong>%1$s %2$s</strong>!',
+	'ACP_IMAGEUPLOAD_REALLY_DELETE_IMAGE'	=> 'Afbeelding echt verwijderen?',
+	'ACP_IMAGEUPLOAD_TITLE'					=> 'Afbeelding naam',
+	'ACP_IMAGEUPLOAD_TITLE_REAL'			=> 'Afbeelding echte naam',
+	'ACP_IMAGEUPLOAD_PREVIEW'				=> 'Voorbeeld',
+	'ACP_IMAGEUPLOAD_WIDTH_HEIGHT'			=> 'Breedte/Hoogte',
+	'ACP_IMAGEUPLOAD_FOLDER_SIZE'			=> 'Totale folder grootte',
+	'ACP_IMAGEUPLOAD_USERNAME'				=> 'Geupload door',
+	'ACP_IMAGEUPLOAD_SIZE'					=> 'Grootte',
+	'ACP_MULTI_IMAGES'		=>	array(
+		1 => '%s afbeelding',
+		2 => '%s afbeeldingen',
+	),
+));
 ));
