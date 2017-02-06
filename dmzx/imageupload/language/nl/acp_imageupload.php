@@ -58,5 +58,7 @@ $lang = array_merge($lang, array(
 		1 => '%s afbeelding',
 		2 => '%s afbeeldingen',
 	),
-));
+	'ACP_IMAGEUPLOAD_SORT_USERNAME'			=> 'Gebruikersnaam',
+	'ACP_IMAGEUPLOAD_SORT_DATE'				=> 'Datum',
+	'ACP_IMAGEUPLOAD_NOT_SELECTED'			=> 'Geen afbeeldingen geselecteerd',
 ));
