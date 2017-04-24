@@ -51,4 +51,11 @@ $lang = array_merge($lang, array(
 	'IMAGEUPLOAD_IMG_LINK'						=> 'IMG',
 	'IMAGEUPLOAD_HSIMG_LINK'					=> 'HSIMG',
 	'IMAGEUPLOAD_BY'							=> 'Afbeelding Upload door',
+	'IMAGEUPLOAD_COPY'							=> 'kopieer',
+	'IMAGEUPLOAD_UPLOADED_IMAGES'				=> 'Jouw geuploade afbeeldingen',
+	'IMAGEUPLOAD_POSTINGPAGE'					=> 'Hier vind je jouw geuploade afbeeldingen terug, klik op de afbeeldingen voor een voorbeeld, sleep en plaats in het post gedeelte.',
+	'IMAGEUPLOAD_INDEXPAGE'						=> 'Hier vind je jouw geuploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los.',
+	'IMAGEUPLOAD_INDEXPAGE_CHAT'				=> 'Hier vind je jouw geuploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los of klik op de knop om direct te posten in mChat.',
+	'IMAGEUPLOAD_UPC_INDEX'						=> 'Bekijk jouw geuploade afbeeldingen op de index pagina',
+	'IMAGEUPLOAD_COLLAPSIBLE_CATEGORIES_TITLE'	=> 'Schakel de zichtbaarheid van je uploads aan of uit',
 ));

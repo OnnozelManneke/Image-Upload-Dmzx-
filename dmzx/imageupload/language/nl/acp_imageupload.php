@@ -43,6 +43,8 @@ $lang = array_merge($lang, array(
 	'ACP_IMAGE_UPLOAD_CONFIGURATION'		=> 'Afbeelding Uploader configuratie',
 	'ACP_IMAGEUPLOAD_ENABLE'				=> 'Schakel Afbeelding Uploader in',
 	'ACP_IMAGEUPLOAD_ENABLE_EXPLAIN'		=> 'Globale instellingen voor Afbeelding Uploader in te schakelen.',
+	'ACP_IMAGEUPLOAD_INDEX_ENABLE'			=> 'Schakel afbeeldingen in op index',
+	'ACP_IMAGEUPLOAD_INDEX_ENABLE_EXPLAIN'	=> 'Globaal aan/uit van afbeeldingen op de index voor alle leden.<br />Leden kunnen in UCP instellen of ze hun geuploade afbeeldingen wensen te bekijken op de index.',
 	'ACP_IMAGEUPLOAD_NUMBER'				=> 'Grootte van de upload',
 	'ACP_IMAGEUPLOAD_NUMBER_EXPLAIN'		=> 'Kies de grootte van de upload, standaard is 2 MB.',
 	'ACP_IMAGEUPLOAD_NEW_DOWNLOAD_SIZE'		=> 'De maximum grootte dat je php.ini toelaat is <strong>%1$s %2$s</strong>!',
@@ -54,11 +56,13 @@ $lang = array_merge($lang, array(
 	'ACP_IMAGEUPLOAD_FOLDER_SIZE'			=> 'Totale folder grootte',
 	'ACP_IMAGEUPLOAD_USERNAME'				=> 'Geupload door',
 	'ACP_IMAGEUPLOAD_SIZE'					=> 'Grootte',
-	'ACP_MULTI_IMAGES'		=>	array(
+'ACP_MULTI_IMAGES'		=>	array(
 		1 => '%s afbeelding',
 		2 => '%s afbeeldingen',
 	),
 	'ACP_IMAGEUPLOAD_SORT_USERNAME'			=> 'Gebruikersnaam',
 	'ACP_IMAGEUPLOAD_SORT_DATE'				=> 'Datum',
 	'ACP_IMAGEUPLOAD_NOT_SELECTED'			=> 'Geen afbeeldingen geselecteerd',
+	'ACP_IMAGEUPLOAD_CHAT_ENABLE'			=> 'Schakel posten van afbeeldingen in mChat aan',
+	'ACP_IMAGEUPLOAD_CHAT_ENABLE_EXPLAIN'	=> 'Stel in op ja om geuploade afbeeldingen op de index toe te voegen met een muisklik.',
 ));
