@@ -3,7 +3,7 @@
 *
 * @package phpBB Extension - Image Upload
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
-* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
+* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -52,10 +52,13 @@ $lang = array_merge($lang, array(
 	'IMAGEUPLOAD_HSIMG_LINK'					=> 'HSIMG',
 	'IMAGEUPLOAD_BY'							=> 'Afbeelding Upload door',
 	'IMAGEUPLOAD_COPY'							=> 'kopieer',
-	'IMAGEUPLOAD_UPLOADED_IMAGES'				=> 'Jouw geuploade afbeeldingen',
-	'IMAGEUPLOAD_POSTINGPAGE'					=> 'Hier vind je jouw geuploade afbeeldingen terug, klik op de afbeeldingen voor een voorbeeld, sleep en plaats in het post gedeelte.',
-	'IMAGEUPLOAD_INDEXPAGE'						=> 'Hier vind je jouw geuploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los.',
-	'IMAGEUPLOAD_INDEXPAGE_CHAT'				=> 'Hier vind je jouw geuploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los of klik op de knop om direct te posten in mChat.',
-	'IMAGEUPLOAD_UPC_INDEX'						=> 'Bekijk jouw geuploade afbeeldingen op de index pagina',
-	'IMAGEUPLOAD_COLLAPSIBLE_CATEGORIES_TITLE'	=> 'Schakel de zichtbaarheid van je uploads aan of uit',
+	'IMAGEUPLOAD_UPLOADED_IMAGES'				=> 'Jouw geüploade afbeeldingen',
+	'IMAGEUPLOAD_POSTINGPAGE'					=> 'Hier vind je jouw geüploade afbeeldingen terug, klik op de afbeeldingen voor een voorbeeld, sleep en plaats in het post gedeelte.',
+	'IMAGEUPLOAD_INDEXPAGE'						=> 'Hier vind je jouw geüploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los.',
+	'IMAGEUPLOAD_INDEXPAGE_CHAT'				=> 'Hier vind je jouw geüploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los of klik op de knop om direct te posten in mChat.',
+	'IMAGEUPLOAD_UPC_INDEX'						=> 'Bekijk jouw geüploade afbeeldingen op de index pagina',
+	'IMAGEUPLOAD_COLLAPSIBLE_CATEGORIES_TITLE'	=> 'Schakel de zichtbaarheid van je upload aan of uit',
+	'IMAGEUPLOAD_UCP_DELETE_IMAGES'				=> 'Verwijder afbeelding',
+	'IMAGEUPLOAD_UCP_DELETED_IMAGES'			=> 'Verwijderde afbeelding',
+	'IMAGEUPLOAD_PAGE_RETURN'					=> 'Keer terug naar gebruikerspaneel'
 ));

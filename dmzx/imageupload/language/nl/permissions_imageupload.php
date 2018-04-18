@@ -3,7 +3,7 @@
 *
 * @package phpBB Extension - Image Upload
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
-* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
+* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -36,4 +36,5 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ACL_U_IMAGE_UPLOAD'	=> 'Kan bestanden uploaden in de afbeelding uploader',
 	'ACL_U_IMAGEUPLOAD'		=> 'Afbeelding Uploader',
+	'ACL_U_IMAGE_DELETE'	=> 'Kan afbeeldingen in gebruikerspaneel verwijderen',
 ));

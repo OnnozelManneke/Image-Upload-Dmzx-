@@ -3,7 +3,7 @@
 *
 * @package phpBB Extension - Image Upload
 * @copyright (c) 2017 dmzx - http://www.dmzx-web.net
-* Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
+* Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'ACP_IMAGEUPLOAD_PREVIEW'				=> 'Voorbeeld',
 	'ACP_IMAGEUPLOAD_WIDTH_HEIGHT'			=> 'Breedte/Hoogte',
 	'ACP_IMAGEUPLOAD_FOLDER_SIZE'			=> 'Totale folder grootte',
-	'ACP_IMAGEUPLOAD_USERNAME'				=> 'Geupload door',
+	'ACP_IMAGEUPLOAD_USERNAME'				=> 'Geüpload door',
 	'ACP_IMAGEUPLOAD_SIZE'					=> 'Grootte',
 'ACP_MULTI_IMAGES'		=>	array(
 		1 => '%s afbeelding',
@@ -63,6 +63,6 @@ $lang = array_merge($lang, array(
 	'ACP_IMAGEUPLOAD_SORT_USERNAME'			=> 'Gebruikersnaam',
 	'ACP_IMAGEUPLOAD_SORT_DATE'				=> 'Datum',
 	'ACP_IMAGEUPLOAD_NOT_SELECTED'			=> 'Geen afbeeldingen geselecteerd',
-	'ACP_IMAGEUPLOAD_CHAT_ENABLE'			=> 'Schakel posten van afbeeldingen in mChat aan',
-	'ACP_IMAGEUPLOAD_CHAT_ENABLE_EXPLAIN'	=> 'Stel in op ja om geuploade afbeeldingen op de index toe te voegen met een muisklik.',
+	'ACP_IMAGEUPLOAD_CHAT_ENABLE'			=> 'Schakel posten van afbeeldingen in mChat in',
+	'ACP_IMAGEUPLOAD_CHAT_ENABLE_EXPLAIN'	=> 'Stel in op ja om geüploade afbeeldingen op de index toe te voegen met een muisklik.',
 ));

@@ -35,11 +35,5 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_IMAGE_UPLOAD'			=> 'Afbeelding Uploader',
-	'ACP_IMAGE_UPLOAD_CONFIG'	=> 'Configuratie',
-	// Log
-	'LOG_IMAGEUPLOAD_ADD'		=> '<strong>Nieuwe afbeelding toegevoegd</strong><br>» %1$s',
-	'LOG_IMAGEUPLOAD_SETTINGS'	=> '<strong>Afbeelding uploader configuratie gewijzigd</strong>',
-	'LOG_IMAGEUPLOAD_DELETED'	=> '<strong>Verwijderde afbeelding</strong><br>» %1$s',
-	'LOG_USER_IMAGE_DELETED'	=> '<strong>Afbeelding %s verwijderd met echte naam %s op server</strong>',
+	'UCP_IMAGEUPLOAD_TITLE'	=> 'Geüploade afbeeldingen',
 ));
