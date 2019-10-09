@@ -55,9 +55,12 @@ $lang = array_merge($lang, array(
 	'IMAGEUPLOAD_POSTINGPAGE'					=> 'Hier vind je jouw geüploade afbeeldingen terug, klik op de afbeeldingen voor een voorbeeld, sleep en plaats in het post gedeelte.',
 	'IMAGEUPLOAD_INDEXPAGE'						=> 'Hier vind je jouw geüploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los.',
 	'IMAGEUPLOAD_INDEXPAGE_CHAT'				=> 'Hier vind je jouw geüploade afbeeldingen, klik op de afbeeldingen voor een voorbeeld. Sleep en laat los of klik op de knop om direct te posten in mChat.',
-	'IMAGEUPLOAD_UPC_INDEX'						=> 'Bekijk jouw geüploade afbeeldingen op de index pagina',
-	'IMAGEUPLOAD_COLLAPSIBLE_CATEGORIES_TITLE'	=> 'Schakel de zichtbaarheid van je upload aan of uit',
+	'IMAGEUPLOAD_UPC_INDEX'						=> 'Bekijk uw geüploade afbeeldingen op de indexpagina',
+	'IMAGEUPLOAD_COLLAPSIBLE_CATEGORIES_TITLE'			=> [
+		0 => 'Hide image upload',
+		1 => 'Show image upload',
+	],
 	'IMAGEUPLOAD_UCP_DELETE_IMAGES'				=> 'Verwijder afbeelding',
-	'IMAGEUPLOAD_UCP_DELETED_IMAGES'			=> 'Verwijderde afbeelding',
-	'IMAGEUPLOAD_PAGE_RETURN'					=> 'Keer terug naar gebruikerspaneel'
+	'IMAGEUPLOAD_UCP_DELETED_IMAGES'			=> 'Afbeelding verwijderd',
+	'IMAGEUPLOAD_PAGE_RETURN'					=> 'Terugkeren naar geüploade afbeeldingen',
 ));

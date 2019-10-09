@@ -64,4 +64,6 @@ $lang = array_merge($lang, array(
 	'ACP_IMAGEUPLOAD_NOT_SELECTED'			=> 'Geen afbeeldingen geselecteerd',
 	'ACP_IMAGEUPLOAD_CHAT_ENABLE'			=> 'Schakel posten van afbeeldingen in mChat in',
 	'ACP_IMAGEUPLOAD_CHAT_ENABLE_EXPLAIN'	=> 'Stel in op ja om geüploade afbeeldingen op de index toe te voegen met een muisklik.',
+	'ACP_IMAGEUPLOAD_EXT'					=> 'Toegestane extensies',
+	'ACP_IMAGEUPLOAD_EXT_EXPLAIN'			=> 'Toegestane extensies, gescheiden door een komma (voorbeeld: gif, jpeg, jpg, png)',
 ));
