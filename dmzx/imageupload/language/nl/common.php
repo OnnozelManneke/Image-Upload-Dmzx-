@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -33,15 +33,13 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 
-$lang = array_merge($lang, array(
+$lang = array_merge($lang, [
 	'IMAGEUPLOAD_UPLOAD'						=> 'Img-Upload',
 	'IMAGEUPLOAD_UPLOAD_SECTION'				=> 'Afbeelding Upload sectie',
 	'IMAGEUPLOAD_UPLOAD_MESSAGE'				=> 'Upload hier je afbeelding. (Let op, deze folder wordt geledigd. En alle bestanden worden gelogd.)',
 	'IMAGEUPLOAD_NOT_ENABELD'					=> 'Afbeelding Upload is niet ingeschakeld',
 	'IMAGEUPLOAD_NEW_DOWNLOAD_SIZE'				=> 'De maximum grootte van het bestand is <strong>%1$s %2$s</strong>! Als gevolg van de upload tijd die je nodig zou kunnen hebben, kan deze waarde lager zijn!',
 	'IMAGEUPLOAD_NO_FILENAME'					=> 'Je moet een bestand toevoegen die behoord aan je upload.',
-	'IMAGEUPLOAD_FILE_TOO_BIG'					=> 'Het bestand is groter dan dat je host toelaat!',
-	'IMAGEUPLOAD_NEW_ADDED'						=> 'Je opgave werd succesvol toegevoegd aan de database',
 	'IMAGEUPLOAD_CURRENT_VERSION'				=> 'Versie',
 	'IMAGEUPLOAD_NEW_FILENAME'					=> 'Bestandsnaam',
 	'IMAGEUPLOAD_SUCCEEDED'						=> 'Upload geslaagd!',
@@ -63,4 +61,15 @@ $lang = array_merge($lang, array(
 	'IMAGEUPLOAD_UCP_DELETE_IMAGES'				=> 'Verwijder afbeelding',
 	'IMAGEUPLOAD_UCP_DELETED_IMAGES'			=> 'Afbeelding verwijderd',
 	'IMAGEUPLOAD_PAGE_RETURN'					=> 'Terugkeren naar geüploade afbeeldingen',
-));
+	'IMAGEUPLOAD_DIRECTORY_FAIL'				=> 'Fout: directory <strong>%s</strong> is niet beschrijfbaar!',
+	'IMAGEUPLOAD_IMAGES_PAGINATION'		=>	[
+		1 => '%s image',
+		2 => '%s images',
+	],
+	'IMAGEUPLOAD_INSERT_IMAGE'					=> 'Voeg afbeelding in',
+	'IMAGEUPLOAD_INSERT_MCHAT_IMAGE'			=> 'Afbeelding invoegen in mChat',
+	'IMAGEUPLOAD_MULTI_UPLOAD_EXPLAIN' 			=> 'Sectie voor het uploaden van meerdere afbeeldingen.<br>Geüploade afbeeldingen worden automatisch aan uw geüploade afbeeldingen toegevoegd.<br>Afbeeldingen die groter zijn dan de maximale grootte, worden niet geüpload.<br>Meerdere geüploade afbeeldingen geven geen link of voorbeeld weer.',
+	'IMAGEUPLOAD_MULTI_UPLOAD_DRAG' 			=> 'Sleep uw bestanden hier naartoe',
+	'IMAGEUPLOAD_MULTI_UPLOAD_BROWSE' 			=> 'Of blader',
+	'IMAGEUPLOAD_CLOSED'						=> 'Sluit',
+]);

@@ -14,7 +14,7 @@ if (!defined('IN_PHPBB'))
 
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+	$lang = [];
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -32,8 +32,10 @@ if (empty($lang) || !is_array($lang))
 // Some characters for use
 // ’ » “ ” …
 
-$lang = array_merge($lang, array(
-	'ACL_U_IMAGE_UPLOAD'	=> 'Kan bestanden uploaden in de afbeelding uploader',
-	'ACL_U_IMAGEUPLOAD'		=> 'Afbeelding Uploader',
-	'ACL_U_IMAGE_DELETE'	=> 'Kan afbeeldingen in gebruikerspaneel verwijderen',
-));
+$lang = array_merge($lang, [
+	'ACL_U_IMAGEUPLOAD'			=> 'Afbeelding uploaden',
+	'ACL_U_IMAGE_UPLOAD'		=> 'Kan afbeeldingen uploaden',
+	'ACL_U_IMAGE_DELETE'		=> 'Kan afbeeldingen in Gebruikerspaneel verwijderen',
+	'ACL_U_IMAGE_UPLOAD_UCP'	=> 'Kan afbeeldingen zien in het Gebruikerspaneel tabblad',
+	'ACL_U_IMAGE_UPLOAD_MULTI'	=> 'Kan meerdere afbeeldingen uploaden',
+]);
